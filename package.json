@@ -2,7 +2,6 @@
   "name": "grpc-uniary-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,10 +12,13 @@
     "@grpc/grpc-js": "^1.12.5",
     "@grpc/proto-loader": "^0.7.13",
     "google-protobuf": "^3.21.4",
+    "grpc-tools": "^1.12.4",
+    "grpc_tools_node_protoc_ts": "^5.3.3",
     "protobufjs": "^7.4.0"
   },
   "devDependencies": {
     "@types/node": "^22.13.0",
-    "grpc-js": "link:@types/@grpc/grpc-js"
+    "grpc-js": "link:@types/@grpc/grpc-js",
+    "ts-node": "^10.9.2"
   }
 }
